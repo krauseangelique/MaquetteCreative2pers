@@ -12,8 +12,11 @@ container_page{
 main{
     max-width: 800px;
     border: 1px solid salmon;
+    
+    height: calc(100vh-(332px-140px));
 }
 aside{
     max-width: 400px;
     border: 1px solid palevioletred;
+    height: calc(100vh-(332px-140px));
 }
