@@ -2,13 +2,14 @@
 @import url(./header.css);
 @import url(./footer.css);
 @import url(./font.css);
+@import url(./icon.css);
 
 body{
     background-color: var(--first-bcground-color);
     color: var(--first-color);
 }
 h1{
-    font-family: 'Source Code Pro', monospace;
+    font-family: var(--logo);
 }
 container_page{
     max-width: 1200px;
