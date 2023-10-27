@@ -1,6 +1,7 @@
 @import url(./variables.css);
 @import url(./header.css);
 @import url(./footer.css);
+@import url(./font.css);
 
 body{
     background-color: var(--first-bcground-color);
