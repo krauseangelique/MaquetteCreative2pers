@@ -6,3 +6,14 @@ body{
     background-color: var(--first-bcground-color);
     color: var(--first-color);
 }
+container_page{
+    max-width: 1200px;
+}
+main{
+    max-width: 800px;
+    border: 1px solid salmon;
+}
+aside{
+    max-width: 400px;
+    border: 1px solid palevioletred;
+}
