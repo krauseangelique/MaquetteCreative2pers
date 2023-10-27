@@ -7,6 +7,9 @@ body{
     background-color: var(--first-bcground-color);
     color: var(--first-color);
 }
+h1{
+    font-family: 'Source Code Pro', monospace;
+}
 container_page{
     max-width: 1200px;
 }
