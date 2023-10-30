@@ -15,9 +15,11 @@ body{
 h1{
     font-family: var(--logo);
 }
-container_page{
+.container_page{
     max-width: 1200px;
+    border: 1px solid green;
 }
+
 main{
     max-width: 800px;
     border: 1px solid salmon;

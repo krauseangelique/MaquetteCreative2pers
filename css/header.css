@@ -1,0 +1,11 @@
+/* background image dans le header */
+.imageSlider{
+  background-image:  url("../images/pexels-lisa-fotios-1882410.jpg");
+  
+  /* Luminosité sur l'image */
+    -webkit-filter : brightness(60%); /* Chrome, Safari, Opera */
+    filter : brightness(60%); /* 100% = pas de changement sur l'image */
+}
+ 
+
+                  
