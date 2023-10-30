@@ -1,10 +1,11 @@
 :root {
-    --first-bcground-color: #33264E;
+    --first-bcground-color: #33264E; 
     --first-color: white;
     --liens-color: #EE3E52;
     --buttons-bgcolor: linear-gradient (#FF6071 , #FF7E8E);
     --text: "Mulish", sans-serif;
     --title: "Fairplay Display", serif;
     --logo: "Vampiro One", cursive;
+    --article-bcground-color: #362953;
 }
 
