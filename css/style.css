@@ -4,9 +4,13 @@
 @import url(./font.css);
 @import url(./icon.css);
 
+
 body{
     background-color: var(--first-bcground-color);
     color: var(--first-color);
+    margin: 0;
+    box-sizing: border-box;
+    
 }
 h1{
     font-family: var(--logo);
