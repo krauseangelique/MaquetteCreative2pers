@@ -1,5 +1,7 @@
 @import url(./variables.css);
 @import url(./header.css);
+@import url(./slider.css);
+
 @import url(./footer.css);
 @import url(./font.css);
 @import url(./icon.css);
@@ -16,6 +18,9 @@ body{
 .container_page{
     max-width: 1200px;
     border: 1px solid green;
+    text-align: center;
+    margin: 0 auto;
+
 }
 
 /* HEADER  + voir feuille de style propre */
@@ -24,6 +29,13 @@ header{
 }
 h1{
     font-family: var(--logo);
+}
+
+/* SLIDER */
+slider{
+    max-width: 1600px;
+    border: 3px solid saddlebrown;
+    
 }
 
 /* MAIN */
