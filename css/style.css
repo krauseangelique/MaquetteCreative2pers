@@ -12,22 +12,38 @@ body{
     box-sizing: border-box;
     
 }
-h1{
-    font-family: var(--logo);
-}
+
 .container_page{
     max-width: 1200px;
     border: 1px solid green;
 }
 
+/* HEADER  + voir feuille de style propre */
+header{
+    border: 1px solid salmon;
+}
+h1{
+    font-family: var(--logo);
+}
+
+/* MAIN */
 main{
     max-width: 800px;
-    border: 1px solid salmon;
+    border: 2px solid salmon;
     
     height: calc(100vh-(332px-140px));
 }
+
+/* ASIDE   + voir feuille de style propre */
 aside{
     max-width: 400px;
     border: 1px solid palevioletred;
     height: calc(100vh-(332px-140px));
+}
+
+/* FOOTER + voir feuille de style propre */
+footer{
+    max-width: 100vw;
+    border: 1px solid red;
+    max-height: 300px;
 }
