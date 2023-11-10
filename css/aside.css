@@ -1,3 +1,9 @@
+.rePost{
+    display: flex;
+    text-align: left;
+    border: 1px solid greenyellow;
+    margin-bottom: 5px;
+}
 .imgRePost img{
     width: 75px;
     height: 75px;
