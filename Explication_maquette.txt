@@ -1,0 +1,46 @@
+header
+ <header>
+            <div class="socialMedia">
+                <div class="social">
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-twitter fa-sm"></i>
+                    <i class="fa-brands fa-square-instagram"></i>
+                    <i class="fa-brands fa-pinterest"></i>
+                </div>
+                <h1>Creative</h1>
+                <form name="glass">
+                    <label for="recherche"></label>
+                    <input type="search" class="text" id="recherche" name="article">
+
+                    <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </form>
+            </div>
+            <nav class="list-group">
+                <a class="list-group-item" href="#">&nbsp; Home</a>
+                <a class="list-group-item" href="#">&nbsp; Articles</a>
+                <a class="list-group-item" href="#">&nbsp; Contacts</a>
+                <a class="list-group-item" href="#">&nbsp; About</a>
+            </nav>
+            <hr>
+        </header>
+
+        /* background image dans le slider  */
+.imageSlider{
+    background-image:  url("../images/pexels-lisa-fotios-1882410.jpg");
+    
+    /* Luminosité sur l'image */
+      -webkit-filter : brightness(60%); /* Chrome, Safari, Opera */
+      filter : brightness(60%); /* 100% = pas de changement sur l'image */
+      text-align: center;
+      margin: 0 auto;
+  }  
+.creatorImg{
+  height: 50px;
+  width: 50px;  
+  margin: 0 auto;
+}
+.creatorImg img{
+  width: 100%;
+  border: 3px solid firebrick;
+  border-radius: 50%;  
+}

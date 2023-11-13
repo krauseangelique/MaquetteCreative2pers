@@ -57,10 +57,9 @@ main{
 aside{
     max-width: 332px;
     border: 3px solid goldenrod;
-    height: calc(100vh - (332px - 140px));
-    
-    
+        
 }
+
 
 /* FOOTER + voir feuille de style propre */
 footer{

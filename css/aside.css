@@ -9,3 +9,21 @@
     height: 75px;
     object-fit: cover;
 }
+hangout-ligne{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+}
+hangout-ligne h3{
+    max-width: 55%;
+}
+.ligne{
+    height: 3px;
+    width: 45%;
+    padding: 0 10px;
+    background-color: fuchsia;   
+}
+
+    
+
