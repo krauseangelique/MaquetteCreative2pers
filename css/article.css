@@ -5,8 +5,8 @@ article{
     margin-bottom: 10px;
 }
 article img{
-    height: 270px;
-    width: 270px;
+    height: 250px;
+    width: 250px;
     object-fit: cover;
 }
 .article_txt{
