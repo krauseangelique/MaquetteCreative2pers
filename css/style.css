@@ -19,7 +19,7 @@ body{
 .container_page{
     max-width: 1200px;
     display: flex;
-    border: 1px solid green;
+    border: 3px solid rgb(34, 79, 34);
     text-align: center;
     margin: 0 auto;
     justify-content: space-between;

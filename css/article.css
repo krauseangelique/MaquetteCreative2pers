@@ -1,5 +1,6 @@
 article{
     display: flex;
+    position: relative;
     text-align: left;
     border: 1px solid fuchsia;
     margin-bottom: 10px;
@@ -25,6 +26,15 @@ h4:after{
     position: absolute;
     left: 5px;
     bottom: 3px;
+}
+.suite{
+    position:absolute;
+    right: 30px;
+    bottom: -6px;
+    padding: 10px;
+    border: 1px solid pink;
+    background-color: blueviolet;
+
 }
 
 
