@@ -24,6 +24,17 @@ hangout-ligne h3{
     padding: 0 10px;
     background-color: fuchsia;   
 }
+.date_time{
+    display: flex;
+    justify-content: center;
+    align-items: center;;
+}
+.textImgRePost span{
+    width: 10px;
+    height: 10px;
+    transform: rotate(45deg);
+    background-color: fuchsia;
+}
 
     
 
