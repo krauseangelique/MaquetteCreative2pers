@@ -31,25 +31,25 @@
                     <i class="fa-brands fa-pinterest"></i>
                 </div>
                 <h1>Creative</h1>
-                <form action="" name="glass">
-                    <label for="recherche"><i class="fa-solid fa-magnifying-glass"></i></label>
-                    <input type="text" class="text" id="recherche">
+                <form name="glass">
+                    <label for="recherche"></label>
+                    <input type="search" class="text" id="recherche" name="article">
+
+                    <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
                 </form>
             </div>
-            <div class="list-group">
+            <nav class="list-group">
                 <a class="list-group-item" href="#">&nbsp; Home</a>
-                <a class="list-group-item" href="#">&nbsp;
-                            Articles</a>
-                <a class="list-group-item" href="#">&nbsp;
-                            Contacts</a>
+                <a class="list-group-item" href="#">&nbsp; Articles</a>
+                <a class="list-group-item" href="#">&nbsp; Contacts</a>
                 <a class="list-group-item" href="#">&nbsp; About</a>
-            </div>
+            </nav>
             <hr>
         </header>
 
     </div>
         <!-- SLIDER -->
-        <slider>
+        <hangout-slider>
             <!--  background image dans le header -->
             <div class="imageSlider">
                 <p class="rond"></p>
@@ -70,7 +70,7 @@
                 <p class="image"></p>
                 <p class="image"></p>
             </div>    
-        </slider>
+        </hangout-slider>
         <!--  -->
 
     <div class="container_page">
@@ -78,33 +78,41 @@
         <main>
             <div class="container-articles">
                 
-                    <article>
-                        <div class="article_img"><img src="./images/pexels-photo-573299.jpeg" alt="" class="image_article"></div>
+                <article>
+                    <div class="article_img"><img src="./images/pexels-photo-573299.jpeg" alt="" class="image_article"></div>
 
-                        <div class="article_txt">
-                            <h4> category</h4>
-                            <h3>Titre de l'article</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque placeat iusto, error totam, nostrum, maxime odit ea commodi id molestiae nam. Quo eum laboriosam dicta excepturi possimus earum sunt rem.</p>
+                    <div class="article_txt">
+                        <h4> category</h4>
+                        <h3>Titre de l'article</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque placeat iusto, error totam, nostrum, maxime odit ea commodi id molestiae nam. Quo eum laboriosam dicta excepturi possimus earum sunt rem.</p>
+                    </div>
+                        
+                </article>
+                <article>
+                    <div class="article_img"><img src="./images/pexels-photo-573299.jpeg" alt="" class="image_article"></div>
+                        
+                    <div class="article_txt">
+                        <h4> category</h4>
+                        <h3>Titre de l'article</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque placeat iusto, error totam, nostrum, maxime odit ea commodi id molestiae nam. Quo eum laboriosam dicta excepturi possimus earum sunt rem.</p>
+                    </div>    
+                </article>
+                <article>
+                    <div class="article_img"><img src="./images/pexels-photo-573299.jpeg" alt="" class="image_article"></div>
+                        
+                    <div class="article_txt">
+                        <h4> category</h4>
+                        <h3>Titre de l'article</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque placeat iusto, error totam, nostrum, maxime odit
+                                ea commodi id molestiae nam. Quo eum laboriosam dicta excepturi possimus earum sunt rem.</p>
                         </div>
-                        
-                    </article>
-                    <article>
-                        <div class="article_img"><img src="./images/pexels-photo-573299.jpeg" alt="" class="image_article"></div>
-                        
-                        <div class="article_txt">
-                            <h4> category</h4>
-                            <h3>Titre de l'article</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque placeat iusto, error totam, nostrum, maxime odit ea commodi id molestiae nam. Quo eum laboriosam dicta excepturi possimus earum sunt rem.</p>
-                        </div>
-                        
-                    </article>
-                <article>b</article>
+                </article>
             </div>   
         </main>
 
         <aside>
             <!-- Latest Post articles -->
-            <recentPost>
+            <hangout-recentPost>
                 <h3>Recent Posts</h3>
                 <div class="rePost">
                     <p class="imgRePost">
@@ -112,7 +120,8 @@
                     </p>
                     <div class="textImgRePost">
                         <h4>Titre de l'article qui peut aussi être PLUS long</h4>
-                        <p>29 octobre 2023</p>
+                        <!-- La balise <time> peut être utilisée pour la représentation de la date de parution de l'article au lieu de p -->
+                        <time datetime="2023-10-29">29 octobre 2023</time>
                     </div>    
                 </div>
                 <div class="rePost">
@@ -121,7 +130,7 @@
                     </p>
                     <div class="textImgRePost">
                         <h4>Titre de l'article qui peut aussi être PLUS long</h4>
-                        <p>28 octobre 2023</p>
+                        <time datetime="2023-10-28">28 octobre 2023</time>
                     </div>    
                 </div>
                 <div class="rePost">
@@ -130,11 +139,12 @@
                     </p>
                     <div class="textImgRePost">
                             <h4>Titre de l'article qui peut aussi être PLUS long</h4>
-                            <p>27 octobre 2023</p>
+                            <time datetime="2023-10-27">27 octobre 2023</time>
                     </div>
                 </div>    
-            </recentPost>
-            </section>
+            </hangout-recentPost>
+            
+
             <section class="socialProfiles">
                 <h3>Social Profiles</h3>
             </section>
