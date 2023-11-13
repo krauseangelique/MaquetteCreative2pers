@@ -17,7 +17,7 @@ body{
 }
 
 .container_page{
-    max-width: 1200px;
+    width: 1200px;
     display: flex;
     border: 3px solid rgb(34, 79, 34);
     text-align: center;
@@ -31,9 +31,10 @@ body{
 }
 
 /* HEADER  + voir feuille de style propre */
-header{
-    border: 1px solid salmon;
+header{   
+    width: 100%;    
 }
+
 h1{
     font-family: var(--logo);
 }

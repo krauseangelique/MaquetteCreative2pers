@@ -7,6 +7,10 @@
       filter : brightness(60%); /* 100% = pas de changement sur l'image */
       text-align: center;
       margin: 0 auto;
+     background-size: cover;
+     background-repeat: no-repeat;
+     max-width: 1600px;
+     height: 480px;
   }  
 .creatorImg{
   height: 50px;

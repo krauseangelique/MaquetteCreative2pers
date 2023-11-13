@@ -1,3 +1,49 @@
+.socialMedia{
+    display: flex;
+    justify-content: space-around;
+}
+.social{
+    display: flex;
+    width: 275px;
+    text-align: center;
+    align-items: center;
+    
+}
+.social i{
+    
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    padding: 10px;
+   
+}
+input.text{
+    background-color: fuchsia;
+    display: none;
+}
+form[name="glass"]{
+    width: 275px;
+    
+}
+
+form[name="glass"] button{
+    background-color: blueviolet;
+    border-radius: 50%;
+    padding: 10px;
+    margin-top: 7px;
+    border: transparent;
+}
+
+nav a{
+    text-decoration: none;
+    font-size: large;
+    color: whitesmoke;
+}
+nav a.active{
+    color: blueviolet;
+}
+
+   
 
  
 
